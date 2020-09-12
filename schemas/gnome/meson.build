@@ -3,8 +3,6 @@ gnome_schemas = [
     'org.gnome.desktop.interface.gschema.override',
     'org.gnome.desktop.screensaver.gschema.override',
     'org.gnome.desktop.wm.preferences.gschema.override',
-    'org.gnome.nautilus.icon-view.gschema.override',
-    'org.gnome.settings-daemon.gschema.override',
 ]
 
 custom_target('10_budgie_gnome_settings.gschema.override',

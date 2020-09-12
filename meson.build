@@ -1,7 +1,7 @@
 project(
     'budgie-desktop-branding',
     ['c'],
-    version: '18',
+    version: '20200912',
     license: [
         'GPL-2.0',
     ],
@@ -23,8 +23,6 @@ if path_envdir == ''
     path_envdir = join_paths(path_datadir, 'defaults', 'etc', 'profile.d')
 endif
 
-subdir('env')
-subdir('lightdm')
 subdir('schemas')
 
 report = [

@@ -1,5 +1,4 @@
 [org.gnome.desktop.interface]
-cursor-theme='breeze-cursor'
-font-name='Clear Sans 10'
-gtk-theme='Arc-Darker'
-icon-theme='Arc'
+gtk-decoration-layout = 'menu:minimize,maximize,close'
+gtk-theme='Menta'
+icon-theme='Adwaita'

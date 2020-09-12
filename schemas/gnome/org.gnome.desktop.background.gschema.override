@@ -1,2 +1,5 @@
 [org.gnome.desktop.background]
-picture-uri='file:///usr/share/backgrounds/solus/IMG_0604-solus.JPG'
+picture-uri='file://@@WALLPAPER_URI@@'
+picture-options='zoom'
+primary-color='#258c06'
+secondary-color='#258c06'
