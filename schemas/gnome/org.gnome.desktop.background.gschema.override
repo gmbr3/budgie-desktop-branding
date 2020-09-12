@@ -1,4 +1,4 @@
-[org.gnome.desktop.background]
+[org.gnome.desktop.background:Budgie]
 picture-uri='file://@@WALLPAPER_URI@@'
 picture-options='zoom'
 primary-color='#258c06'
