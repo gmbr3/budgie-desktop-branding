@@ -1,4 +1,3 @@
 [org.gnome.desktop.interface:Budgie]
-gtk-decoration-layout='menu:minimize,maximize,close'
 gtk-theme='Greybird-Geeko-Light'
 icon-theme='Adwaita'
