@@ -1,2 +1,2 @@
 [org.gnome.desktop.screensaver:Budgie]
-picture-uri='file://@@WALLPAPER_URI@@'
+picture-uri='file:///usr/share/wallpapers/openSUSE-default.xml'
