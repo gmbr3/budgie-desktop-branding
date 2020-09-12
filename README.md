@@ -9,6 +9,7 @@ the Budgie Desktop experience for the openSUSE Operating System.
 ## License
 
 Copyright © 2016-2018 Solus Project
+
 Copyright © 2020 Callum Farmer <callumjfarmer13@gmail.com>
 
 
