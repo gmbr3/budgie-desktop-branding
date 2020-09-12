@@ -1,3 +1,2 @@
 [org.gnome.desktop.wm.preferences:Budgie]
-button-layout='menu:minimize,maximize,close'
 theme='Greybird-Geeko-Light'
