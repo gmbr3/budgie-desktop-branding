@@ -1,4 +1,4 @@
 [org.gnome.desktop.interface]
 gtk-decoration-layout = 'menu:minimize,maximize,close'
-gtk-theme='Menta'
+gtk-theme='Greybird-Geeko-Light'
 icon-theme='Adwaita'
