@@ -1,5 +1,6 @@
 budgie_schemas = [
     'com.solus-project.icon-tasklist.gschema.override',
+    'com.solus-project.budgie-menu.gschema.override',
 ]
 
 custom_target('10_budgie_settings.gschema.override',

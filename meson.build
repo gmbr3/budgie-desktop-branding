@@ -24,6 +24,7 @@ if path_envdir == ''
 endif
 
 subdir('schemas')
+subdir('icons')
 
 report = [
     '    Build configuration:',

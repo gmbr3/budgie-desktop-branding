@@ -1,0 +1,1 @@
+install_data('openSUSE-distributor-logo.svg', install_dir : 'share/icons/hicolor/scalable/apps')
