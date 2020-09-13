@@ -1,10 +1,7 @@
 gnome_schemas = [
     'org.gnome.desktop.interface.gschema.override',
-    'org.gnome.desktop.wm.preferences.gschema.override',
-]
-
-hp_gnome_schemas = [
     'org.gnome.desktop.background.gschema.override',
+    'org.gnome.desktop.wm.preferences.gschema.override',
 ]
 
 custom_target('10_budgie_gnome_settings.gschema.override',
