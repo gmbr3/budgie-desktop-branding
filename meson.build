@@ -1,7 +1,7 @@
 project(
     'budgie-desktop-branding',
     ['c'],
-    version: '20200912',
+    version: '20200915',
     license: [
         'GPL-2.0',
     ],
@@ -17,7 +17,6 @@ path_prefix = get_option('prefix')
 path_datadir = join_paths(path_prefix, get_option('datadir'))
 path_schemadir = join_paths(path_datadir, 'glib-2.0', 'schemas')
 
-# Solusism
 path_envdir = get_option('with-profile-dir')
 if path_envdir == ''
     path_envdir = join_paths(path_datadir, 'defaults', 'etc', 'profile.d')
