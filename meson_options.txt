@@ -1,1 +1,1 @@
-option('with-profile-dir', description: 'Profile directory', type: 'string')
+option('version', description: 'Version to be installed', type: 'array', choices : ['openSUSE', 'SLE',  'upstream'],)

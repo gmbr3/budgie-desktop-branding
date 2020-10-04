@@ -1,5 +1,8 @@
 gnome_schemas = [
     'org.gnome.desktop.background.gschema.override',
+    'org.gnome.desktop.screensaver.gschema.override',
+    'com.solus-project.budgie-panel.gschema.override',
+
 ]
 
 custom_target('10_budgie_gnome_settings_upstream.gschema.override',

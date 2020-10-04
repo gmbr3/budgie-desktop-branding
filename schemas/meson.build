@@ -1,3 +1,3 @@
-subdir('budgie')
-subdir('gnome')
-subdir('upstream')
+foreach version : versions
+   subdir(version)
+endforeach
