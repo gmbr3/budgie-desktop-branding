@@ -5,10 +5,11 @@ budgie_schemas = [
     'org.gnome.desktop.background.gschema.override',
     'org.gnome.desktop.interface.gschema.override',
     'org.gnome.desktop.wm.preferences.gschema.override',
+    'org.gnome.desktop.screensaver.gschema.override',
 ]
 
-custom_target('10_budgie_gnome_settings_SLE.gschema.override',
-    output: '10_budgie_gnome_settings_SLE.gschema.override',
+custom_target('21_budgie_gnome_settings_SLE.gschema.override',
+    output: '21_budgie_gnome_settings_SLE.gschema.override',
     capture: true,
     input: budgie_schemas,
     command: ['cat', '@INPUT@'],

@@ -7,8 +7,8 @@ gnome_schemas = [
 
 ]
 
-custom_target('10_budgie_gnome_settings_upstream.gschema.override',
-    output: '10_budgie_gnome_settings_upstream.gschema.override',
+custom_target('21_budgie_gnome_settings_upstream.gschema.override',
+    output: '21_budgie_gnome_settings_upstream.gschema.override',
     capture: true,
     input: gnome_schemas,
     command: ['cat', '@INPUT@'],
