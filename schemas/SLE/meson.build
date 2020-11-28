@@ -2,6 +2,7 @@ budgie_schemas = [
     'com.solus-project.icon-tasklist.gschema.override',
     'com.solus-project.budgie-menu.gschema.override',
     'com.solus-project.budgie-panel.gschema.override',
+    'com.solus-project.budgie-wm.override',
     'org.gnome.desktop.background.gschema.override',
     'org.gnome.desktop.interface.gschema.override',
     'org.gnome.desktop.wm.preferences.gschema.override',
