@@ -1,5 +1,4 @@
 gnome_schemas = [
-    'org.gnome.desktop.background.gschema.override',
     'org.gnome.desktop.screensaver.gschema.override',
     'com.solus-project.budgie-panel.gschema.override',
     'org.gnome.desktop.wm.preferences.gschema.override',

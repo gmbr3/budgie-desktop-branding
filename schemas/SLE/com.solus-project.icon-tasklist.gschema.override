@@ -1,2 +1,2 @@
 [com.solus-project.icon-tasklist]
-pinned-launchers=['firefox.desktop', 'nemo.desktop', 'gnome-terminal.desktop', 'org.opensuse.YaST.desktop']
+pinned-launchers=['firefox.desktop', 'org.gnome.Nautilus.desktop', 'org.gnome.Terminal.desktop', 'org.opensuse.YaST.desktop']
