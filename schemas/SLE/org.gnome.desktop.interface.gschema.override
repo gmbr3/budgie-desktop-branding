@@ -1,3 +1,3 @@
 [org.gnome.desktop.interface:Budgie]
 gtk-theme='Greybird-Geeko-Light'
-icon-theme='Paper-Mono-Dark'
+icon-theme='hicolor'
