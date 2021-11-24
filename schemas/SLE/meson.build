@@ -5,6 +5,7 @@ budgie_schemas = [
     'com.solus-project.budgie-wm.override',
     'org.gnome.desktop.interface.gschema.override',
     'org.gnome.desktop.wm.preferences.gschema.override',
+    'org.gnome.desktop.background.gschema.override',
 ]
 
 custom_target('21_budgie_gnome_settings_SLE.gschema.override',

@@ -3,6 +3,7 @@ gnome_schemas = [
     'com.solus-project.budgie-panel.gschema.override',
     'org.gnome.desktop.wm.preferences.gschema.override',
     'org.gnome.desktop.interface.gschema.override',
+    'org.gnome.desktop.background.gschema.override',
 
 ]
 
