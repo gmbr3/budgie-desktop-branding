@@ -7,8 +7,8 @@ budgie_schemas = [
     'org.gnome.desktop.wm.preferences.gschema.override',
 ]
 
-custom_target('21_budgie_gnome_settings_openSUSE.gschema.override',
-    output: '21_budgie_gnome_settings_openSUSE.gschema.override',
+custom_target('21_budgie_gnome_settings_SLE.gschema.override',
+    output: '21_budgie_gnome_settings_SLE.gschema.override',
     capture: true,
     input: budgie_schemas,
     command: ['cat', '@INPUT@'],
@@ -16,4 +16,4 @@ custom_target('21_budgie_gnome_settings_openSUSE.gschema.override',
     install_dir: path_schemadir,
 )
 
-install_data('budgie-openSUSE-distributor-logo.svg', install_dir : 'share/icons/hicolor/scalable/apps')
+install_data('budgie-SLE-distributor-logo.svg', install_dir : 'share/icons/hicolor/scalable/apps')
