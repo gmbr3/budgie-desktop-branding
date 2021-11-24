@@ -1,3 +1,4 @@
 [org.gnome.desktop.interface:Budgie]
 gtk-theme='Greybird'
 icon-theme='hicolor'
+cursor-theme='Adwaita'

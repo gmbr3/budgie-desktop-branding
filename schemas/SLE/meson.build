@@ -3,14 +3,12 @@ budgie_schemas = [
     'com.solus-project.budgie-menu.gschema.override',
     'com.solus-project.budgie-panel.gschema.override',
     'com.solus-project.budgie-wm.override',
-    'org.gnome.desktop.background.gschema.override',
     'org.gnome.desktop.interface.gschema.override',
     'org.gnome.desktop.wm.preferences.gschema.override',
-    'org.gnome.desktop.screensaver.gschema.override',
 ]
 
-custom_target('21_budgie_gnome_settings_SLE.gschema.override',
-    output: '21_budgie_gnome_settings_SLE.gschema.override',
+custom_target('21_budgie_gnome_settings_openSUSE.gschema.override',
+    output: '21_budgie_gnome_settings_openSUSE.gschema.override',
     capture: true,
     input: budgie_schemas,
     command: ['cat', '@INPUT@'],
@@ -18,4 +16,4 @@ custom_target('21_budgie_gnome_settings_SLE.gschema.override',
     install_dir: path_schemadir,
 )
 
-install_data('budgie-SLE-distributor-logo.svg', install_dir : 'share/icons/hicolor/scalable/apps')
+install_data('budgie-openSUSE-distributor-logo.svg', install_dir : 'share/icons/hicolor/scalable/apps')

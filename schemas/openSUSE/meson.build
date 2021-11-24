@@ -3,10 +3,8 @@ budgie_schemas = [
     'com.solus-project.budgie-menu.gschema.override',
     'com.solus-project.budgie-panel.gschema.override',
     'com.solus-project.budgie-wm.override',
-    'org.gnome.desktop.background.gschema.override',
     'org.gnome.desktop.interface.gschema.override',
     'org.gnome.desktop.wm.preferences.gschema.override',
-    'org.gnome.desktop.screensaver.gschema.override',
 ]
 
 custom_target('21_budgie_gnome_settings_openSUSE.gschema.override',
