@@ -1,4 +1,4 @@
 [org.gnome.desktop.interface:Budgie]
-gtk-theme='Greybird-Geeko-Light'
+gtk-theme='Greybird-geeko'
 icon-theme='Papirus'
 cursor-theme='Adwaita'
