@@ -6,6 +6,7 @@ budgie_schemas = [
     'org.gnome.desktop.wm.preferences.gschema.override',
     'org.gnome.desktop.background.gschema.override',
     'org.gnome.desktop.screensaver.gschema.override',
+    'org.gnome.terminal.legacy.gschema.override',
 ]
 
 custom_target('21_budgie_gnome_settings_openSUSE.gschema.override',

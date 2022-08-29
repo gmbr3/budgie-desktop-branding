@@ -4,6 +4,7 @@ gnome_schemas = [
     'org.gnome.desktop.wm.preferences.gschema.override',
     'org.gnome.desktop.interface.gschema.override',
     'org.gnome.desktop.background.gschema.override',
+    'org.gnome.terminal.legacy.gschema.override',
 
 ]
 
