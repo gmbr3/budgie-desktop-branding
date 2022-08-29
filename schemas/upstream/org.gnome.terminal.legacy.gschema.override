@@ -1,2 +1,2 @@
-[org.gnome.terminal.legacy:Budgie]
+[org.gnome.Terminal.Legacy.Settings:Budgie]
 theme-variant='dark'
