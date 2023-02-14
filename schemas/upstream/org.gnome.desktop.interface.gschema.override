@@ -1,4 +1,0 @@
-[org.gnome.desktop.interface:Budgie]
-gtk-theme='Materia'
-icon-theme='Papirus'
-cursor-theme='Adwaita'
