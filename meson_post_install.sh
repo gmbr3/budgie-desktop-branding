@@ -9,5 +9,7 @@ upstream_file_name="$schema_path/90_budgie_gnome_settings.gschema.override"
 new_file_name="$schema_path/21_budgie_gnome_settings_upstream.gschema.override"
 cat $upstream_file_one >> $upstream_file_name
 cat $upstream_file_two >> $upstream_file_name
+rm $upstream_file_one
+rm $upstream_file_two
 mv $upstream_file_name $new_file_name
 
