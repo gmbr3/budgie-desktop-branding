@@ -1,3 +1,6 @@
-foreach version : versions
-   subdir(version)
-endforeach
+if 'SLE' in versions
+	subdir('SLE')
+endif
+if 'openSUSE' in versions
+	subdir('openSUSE')
+endif
