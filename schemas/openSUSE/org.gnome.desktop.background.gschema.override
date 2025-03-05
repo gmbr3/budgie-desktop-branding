@@ -1,2 +1,3 @@
 [org.gnome.desktop.background:Budgie]
-picture-uri='file:///usr/share/wallpapers/openSUSEdefault/contents/images/5120x3200.png'
+picture-uri='file:///usr/share/wallpapers/openSUSEdefault/contents/images/default.png'
+picture-options = 'zoom'
